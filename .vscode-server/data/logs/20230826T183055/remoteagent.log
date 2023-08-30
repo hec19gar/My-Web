@@ -1,0 +1,88 @@
+2023-08-26 18:30:55.832 [info] 
+
+
+
+
+2023-08-26 18:30:55.898 [info] Extension host agent started.
+2023-08-26 18:30:57.250 [info] [127.0.0.1][db5eae98][ManagementConnection] New connection established.
+2023-08-26 18:30:57.254 [info] [127.0.0.1][7c86c0a2][ExtensionHostConnection] New connection established.
+2023-08-26 18:30:57.741 [info] [127.0.0.1][7c86c0a2][ExtensionHostConnection] <700> Launched Extension Host Process.
+2023-08-26 18:46:43.056 [info] Getting Manifest... streetsidesoftware.code-spell-checker
+2023-08-26 18:46:43.469 [info] Installing extension: streetsidesoftware.code-spell-checker
+2023-08-26 18:46:44.115 [info] Getting Manifest... pranaygp.vscode-css-peek
+2023-08-26 18:46:44.421 [info] Installing extension: pranaygp.vscode-css-peek
+2023-08-26 18:46:44.986 [info] Getting Manifest... dbaeumer.vscode-eslint
+2023-08-26 18:46:45.246 [info] Installing extension: dbaeumer.vscode-eslint
+2023-08-26 18:46:45.547 [warning] Extension signature verification failed with error 'ENOENT': streetsidesoftware.code-spell-checker
+2023-08-26 18:46:46.636 [info] Getting Manifest... ritwickdey.liveserver
+2023-08-26 18:46:46.902 [warning] Extension signature verification failed with error 'ENOENT': pranaygp.vscode-css-peek
+2023-08-26 18:46:46.925 [warning] Extension signature verification failed with error 'ENOENT': dbaeumer.vscode-eslint
+2023-08-26 18:46:47.000 [info] Installing extension: ritwickdey.liveserver
+2023-08-26 18:46:47.420 [info] Extracted extension to file:///home/hec19gar/.vscode-server/extensions/dbaeumer.vscode-eslint-2.4.2: dbaeumer.vscode-eslint
+2023-08-26 18:46:47.519 [info] Renamed to /home/hec19gar/.vscode-server/extensions/dbaeumer.vscode-eslint-2.4.2
+2023-08-26 18:46:47.525 [info] Extracting extension completed. dbaeumer.vscode-eslint
+2023-08-26 18:46:47.528 [info] Extracted extension to file:///home/hec19gar/.vscode-server/extensions/streetsidesoftware.code-spell-checker-2.20.5: streetsidesoftware.code-spell-checker
+2023-08-26 18:46:47.664 [info] Extension installed successfully: dbaeumer.vscode-eslint
+2023-08-26 18:46:47.736 [info] Renamed to /home/hec19gar/.vscode-server/extensions/streetsidesoftware.code-spell-checker-2.20.5
+2023-08-26 18:46:47.744 [info] Extracting extension completed. streetsidesoftware.code-spell-checker
+2023-08-26 18:46:47.888 [info] Extension installed successfully: streetsidesoftware.code-spell-checker
+2023-08-26 18:46:47.909 [info] Getting Manifest... tgreen7.vs-code-node-require
+2023-08-26 18:46:48.384 [info] Installing extension: tgreen7.vs-code-node-require
+2023-08-26 18:46:50.000 [warning] Extension signature verification failed with error 'ENOENT': ritwickdey.liveserver
+2023-08-26 18:46:52.520 [warning] Extension signature verification failed with error 'ENOENT': tgreen7.vs-code-node-require
+2023-08-26 18:46:58.959 [info] Extracted extension to file:///home/hec19gar/.vscode-server/extensions/tgreen7.vs-code-node-require-1.10.2: tgreen7.vs-code-node-require
+2023-08-26 18:46:59.059 [info] Renamed to /home/hec19gar/.vscode-server/extensions/tgreen7.vs-code-node-require-1.10.2
+2023-08-26 18:46:59.065 [info] Extracting extension completed. tgreen7.vs-code-node-require
+2023-08-26 18:46:59.105 [info] Extension installed successfully: tgreen7.vs-code-node-require
+2023-08-26 18:47:06.240 [info] Extracted extension to file:///home/hec19gar/.vscode-server/extensions/pranaygp.vscode-css-peek-4.4.1: pranaygp.vscode-css-peek
+2023-08-26 18:47:06.350 [info] Renamed to /home/hec19gar/.vscode-server/extensions/pranaygp.vscode-css-peek-4.4.1
+2023-08-26 18:47:06.354 [info] Extracting extension completed. pranaygp.vscode-css-peek
+2023-08-26 18:47:06.420 [info] Extension installed successfully: pranaygp.vscode-css-peek
+2023-08-26 18:47:06.861 [info] Extracted extension to file:///home/hec19gar/.vscode-server/extensions/ritwickdey.liveserver-5.7.9: ritwickdey.liveserver
+2023-08-26 18:47:06.965 [info] Renamed to /home/hec19gar/.vscode-server/extensions/ritwickdey.liveserver-5.7.9
+2023-08-26 18:47:06.968 [info] Extracting extension completed. ritwickdey.liveserver
+2023-08-26 18:47:07.058 [info] Extension installed successfully: ritwickdey.liveserver
+2023-08-26 18:48:28.440 [info] [127.0.0.1][db5eae98][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-08-26 18:48:28.443 [error] Error: Throttler is disposed
+    at r.queue (/home/hec19gar/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:70:13612)
+    at /home/hec19gar/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:70:15183
+    at /home/hec19gar/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:70:14822
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+2023-08-26 18:48:28.452 [error] Error: Throttler is disposed
+    at r.queue (/home/hec19gar/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:70:13612)
+    at /home/hec19gar/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:70:15183
+    at /home/hec19gar/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:70:14822
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+2023-08-26 18:48:28.452 [error] Error: Throttler is disposed
+    at r.queue (/home/hec19gar/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:70:13612)
+    at /home/hec19gar/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:70:15183
+    at /home/hec19gar/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:70:14822
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+2023-08-26 18:48:28.452 [error] Error: Throttler is disposed
+    at r.queue (/home/hec19gar/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:70:13612)
+    at /home/hec19gar/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:70:15183
+    at /home/hec19gar/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:70:14822
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+2023-08-26 18:48:28.452 [error] Error: Throttler is disposed
+    at r.queue (/home/hec19gar/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:70:13612)
+    at /home/hec19gar/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:70:15183
+    at /home/hec19gar/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:70:14822
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+2023-08-26 18:48:28.453 [error] Error: Throttler is disposed
+    at r.queue (/home/hec19gar/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:70:13612)
+    at /home/hec19gar/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:70:15183
+    at /home/hec19gar/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:70:14822
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+2023-08-26 18:48:28.676 [info] [127.0.0.1][7c86c0a2][ExtensionHostConnection] <700> Extension Host Process exited with code: 0, signal: null.

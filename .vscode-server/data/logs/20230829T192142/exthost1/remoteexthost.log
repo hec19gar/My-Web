@@ -1,0 +1,108 @@
+2023-08-29 19:21:48.105 [info] Extension host with pid 2535 started
+2023-08-29 19:21:48.292 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2023-08-29 19:21:48.303 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-08-29 19:21:48.674 [info] Lock '/home/hec19gar/.vscode-server/data/User/workspaceStorage/e8baf3156ede3352d57e4e9f4686df24/vscode.lock': Lock acquired.
+2023-08-29 19:21:49.306 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-08-29 19:21:49.335 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-08-29 19:21:49.335 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-08-29 19:21:50.470 [info] ExtensionService#_doActivateExtension pranaygp.vscode-css-peek, startup: true, activationEvent: 'workspaceContains:**/*.css,**/*.scss,**/*.sass,**/*.less'
+2023-08-29 19:21:51.515 [info] Eager extensions activated
+2023-08-29 19:21:51.526 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-08-29 19:21:51.527 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-08-29 19:21:51.527 [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint, startup: false, activationEvent: 'onStartupFinished'
+2023-08-29 19:21:51.528 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2023-08-29 19:21:51.528 [info] ExtensionService#_doActivateExtension streetsidesoftware.code-spell-checker, startup: false, activationEvent: 'onStartupFinished'
+2023-08-29 19:22:06.415 [error] [vscode.emmet] provider FAILED
+2023-08-29 19:22:06.416 [error] Error: Unable to find matching pair for < at char 209
+	at r.error (/home/hec19gar/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/extensions/emmet/dist/node/emmetNodeMain.js:1:22191)
+	at f (/home/hec19gar/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/extensions/emmet/dist/node/emmetNodeMain.js:1:21421)
+	at u (/home/hec19gar/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/extensions/emmet/dist/node/emmetNodeMain.js:1:14436)
+	at l (/home/hec19gar/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/extensions/emmet/dist/node/emmetNodeMain.js:1:14549)
+	at /home/hec19gar/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/extensions/emmet/dist/node/emmetNodeMain.js:1:15164
+	at m (/home/hec19gar/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/extensions/emmet/dist/node/emmetNodeMain.js:1:15271)
+	at A (/home/hec19gar/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/extensions/emmet/dist/node/emmetNodeMain.js:1:16189)
+	at S (/home/hec19gar/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/extensions/emmet/dist/node/emmetNodeMain.js:1:16599)
+	at t.$ad (/home/hec19gar/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/extensions/emmet/dist/node/emmetNodeMain.js:1:143279)
+	at t.$Rd.b (/home/hec19gar/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/extensions/emmet/dist/node/emmetNodeMain.js:1:129525)
+	at t.$Rd.provideCompletionItems (/home/hec19gar/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/extensions/emmet/dist/node/emmetNodeMain.js:1:128531)
+	at ce.provideCompletionItems (/home/hec19gar/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:105:50201)
+	at /home/hec19gar/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:105:70866
+	at le.s (/home/hec19gar/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:105:62744)
+	at le.$provideCompletionItems (/home/hec19gar/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:105:70852)
+	at t.N (/home/hec19gar/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:115:7983)
+	at t.M (/home/hec19gar/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:115:7749)
+	at t.H (/home/hec19gar/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:115:6791)
+	at t.G (/home/hec19gar/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:115:5906)
+	at r.value (/home/hec19gar/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:115:4736)
+	at f.w (/home/hec19gar/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:1902)
+	at fire (/home/hec19gar/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:2119)
+	at y.fire (/home/hec19gar/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:79:13931)
+	at r.value (/home/hec19gar/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:131:30355)
+	at f.w (/home/hec19gar/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:1902)
+	at fire (/home/hec19gar/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:2119)
+	at y.fire (/home/hec19gar/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:79:13931)
+	at n.z (/home/hec19gar/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:79:16996)
+	at r.value (/home/hec19gar/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:79:15448)
+	at f.w (/home/hec19gar/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:1902)
+	at fire (/home/hec19gar/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:2119)
+	at r.acceptChunk (/home/hec19gar/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:79:11705)
+	at r.value (/home/hec19gar/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:79:10992)
+	at f.w (/home/hec19gar/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:1902)
+	at fire (/home/hec19gar/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:2119)
+	at f.u (/home/hec19gar/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:131:19097)
+	at f.acceptFrame (/home/hec19gar/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:131:18903)
+	at c.l (/home/hec19gar/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:131:17536)
+	at /home/hec19gar/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:131:14883
+	at Socket.v (/home/hec19gar/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:131:12797)
+	at Socket.emit (node:events:513:28)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Socket.Readable.push (node:internal/streams/readable:228:10)
+	at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+2023-08-29 19:22:06.854 [error] [vscode.emmet] provider FAILED
+2023-08-29 19:22:06.855 [error] Error: Unable to find matching pair for < at char 209
+	at r.error (/home/hec19gar/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/extensions/emmet/dist/node/emmetNodeMain.js:1:22191)
+	at f (/home/hec19gar/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/extensions/emmet/dist/node/emmetNodeMain.js:1:21421)
+	at u (/home/hec19gar/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/extensions/emmet/dist/node/emmetNodeMain.js:1:14436)
+	at l (/home/hec19gar/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/extensions/emmet/dist/node/emmetNodeMain.js:1:14549)
+	at /home/hec19gar/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/extensions/emmet/dist/node/emmetNodeMain.js:1:15164
+	at m (/home/hec19gar/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/extensions/emmet/dist/node/emmetNodeMain.js:1:15271)
+	at A (/home/hec19gar/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/extensions/emmet/dist/node/emmetNodeMain.js:1:16189)
+	at S (/home/hec19gar/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/extensions/emmet/dist/node/emmetNodeMain.js:1:16599)
+	at t.$ad (/home/hec19gar/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/extensions/emmet/dist/node/emmetNodeMain.js:1:143279)
+	at t.$Rd.b (/home/hec19gar/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/extensions/emmet/dist/node/emmetNodeMain.js:1:129525)
+	at t.$Rd.provideCompletionItems (/home/hec19gar/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/extensions/emmet/dist/node/emmetNodeMain.js:1:128531)
+	at ce.provideCompletionItems (/home/hec19gar/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:105:50201)
+	at /home/hec19gar/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:105:70866
+	at le.s (/home/hec19gar/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:105:62744)
+	at le.$provideCompletionItems (/home/hec19gar/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:105:70852)
+	at t.N (/home/hec19gar/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:115:7983)
+	at t.M (/home/hec19gar/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:115:7749)
+	at t.H (/home/hec19gar/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:115:6791)
+	at t.G (/home/hec19gar/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:115:5906)
+	at r.value (/home/hec19gar/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:115:4736)
+	at f.w (/home/hec19gar/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:1902)
+	at fire (/home/hec19gar/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:2119)
+	at y.fire (/home/hec19gar/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:79:13931)
+	at r.value (/home/hec19gar/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:131:30355)
+	at f.w (/home/hec19gar/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:1902)
+	at fire (/home/hec19gar/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:2119)
+	at y.fire (/home/hec19gar/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:79:13931)
+	at n.z (/home/hec19gar/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:79:16996)
+	at r.value (/home/hec19gar/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:79:15448)
+	at f.w (/home/hec19gar/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:1902)
+	at fire (/home/hec19gar/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:2119)
+	at r.acceptChunk (/home/hec19gar/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:79:11705)
+	at r.value (/home/hec19gar/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:79:10992)
+	at f.w (/home/hec19gar/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:1902)
+	at fire (/home/hec19gar/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:2119)
+	at f.u (/home/hec19gar/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:131:19097)
+	at f.acceptFrame (/home/hec19gar/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:131:18903)
+	at c.l (/home/hec19gar/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:131:17536)
+	at /home/hec19gar/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:131:14883
+	at Socket.v (/home/hec19gar/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:131:12797)
+	at Socket.emit (node:events:513:28)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Socket.Readable.push (node:internal/streams/readable:228:10)
+	at TCP.onStreamRead (node:internal/stream_base_commons:190:23)

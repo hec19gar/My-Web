@@ -1,0 +1,19 @@
+2023-08-26 18:48:53.090 [info] Extension host with pid 2515 started
+2023-08-26 18:48:53.256 [info] Lock '/home/hec19gar/.vscode-server/data/User/workspaceStorage/e8baf3156ede3352d57e4e9f4686df24/vscode.lock': Lock acquired.
+2023-08-26 18:48:53.405 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-08-26 18:48:53.407 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2023-08-26 18:48:54.424 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-08-26 18:48:54.441 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-08-26 18:48:54.445 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-08-26 18:48:55.185 [info] ExtensionService#_doActivateExtension pranaygp.vscode-css-peek, startup: true, activationEvent: 'workspaceContains:**/*.css,**/*.scss,**/*.sass,**/*.less'
+2023-08-26 18:48:56.028 [info] Eager extensions activated
+2023-08-26 18:48:56.038 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-08-26 18:48:56.039 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-08-26 18:48:56.039 [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint, startup: false, activationEvent: 'onStartupFinished'
+2023-08-26 18:48:56.040 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2023-08-26 18:48:56.040 [info] ExtensionService#_doActivateExtension streetsidesoftware.code-spell-checker, startup: false, activationEvent: 'onStartupFinished'
+2023-08-26 18:49:19.600 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-08-26 18:49:19.600 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-08-26 18:54:39.789 [info] Extension host terminating: received terminate message from renderer
+2023-08-26 18:54:39.790 [info] Lock '/home/hec19gar/.vscode-server/data/User/workspaceStorage/e8baf3156ede3352d57e4e9f4686df24/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2023-08-26 18:54:40.049 [info] Extension host with pid 2515 exiting with code 0

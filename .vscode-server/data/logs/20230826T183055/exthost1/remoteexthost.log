@@ -1,0 +1,27 @@
+2023-08-26 18:30:59.570 [info] Extension host with pid 700 started
+2023-08-26 18:30:59.719 [info] Lock '/home/hec19gar/.vscode-server/data/User/workspaceStorage/e8baf3156ede3352d57e4e9f4686df24/vscode.lock': Lock acquired.
+2023-08-26 18:31:00.167 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-08-26 18:31:00.168 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2023-08-26 18:31:01.169 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-08-26 18:31:01.436 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-08-26 18:31:01.436 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-08-26 18:31:02.125 [info] Eager extensions activated
+2023-08-26 18:31:02.126 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-08-26 18:31:02.127 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-08-26 18:46:48.457 [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint, startup: false, activationEvent: 'onStartupFinished'
+2023-08-26 18:46:49.539 [info] ExtensionService#_doActivateExtension streetsidesoftware.code-spell-checker, startup: false, activationEvent: 'onStartupFinished'
+2023-08-26 18:47:07.609 [info] ExtensionService#_doActivateExtension pranaygp.vscode-css-peek, startup: false, activationEvent: 'workspaceContains:**/*.css,**/*.scss,**/*.sass,**/*.less'
+2023-08-26 18:47:07.764 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2023-08-26 18:47:22.423 [error] Error: No result.
+	at o.convert (/home/hec19gar/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:103:86933)
+	at w.registerCommand.description (/home/hec19gar/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:103:76050)
+	at runMicrotasks (<anonymous>)
+	at processTicksAndRejections (node:internal/process/task_queues:96:5)
+	at async a.h (/home/hec19gar/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:103:77769)
+	at async useReference (/home/hec19gar/.vscode-server/extensions/streetsidesoftware.code-spell-checker-2.20.5/packages/client/dist/extension.js:2:268267)
+	at async cSpell.editText (/home/hec19gar/.vscode-server/extensions/streetsidesoftware.code-spell-checker-2.20.5/packages/client/dist/extension.js:2:267552)
+	at async a.h (/home/hec19gar/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:103:77769)
+	at async a.h (/home/hec19gar/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:103:77769) vscode.executeDocumentRenameProvider undefined
+2023-08-26 18:48:28.406 [info] Extension host terminating: received terminate message from renderer
+2023-08-26 18:48:28.406 [info] Lock '/home/hec19gar/.vscode-server/data/User/workspaceStorage/e8baf3156ede3352d57e4e9f4686df24/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2023-08-26 18:48:28.650 [info] Extension host with pid 700 exiting with code 0

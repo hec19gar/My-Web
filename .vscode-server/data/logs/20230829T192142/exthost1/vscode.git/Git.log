@@ -1,0 +1,16 @@
+2023-08-29 19:21:50.381 [info] Log level: Info
+2023-08-29 19:21:50.381 [info] Validating found git in: "git"
+2023-08-29 19:21:50.381 [info] Using git "2.34.1" from "git"
+2023-08-29 19:21:50.381 [info] > git rev-parse --show-toplevel [14ms]
+2023-08-29 19:21:50.382 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2023-08-29 19:21:50.434 [info] Open repository: /home/hec19gar
+2023-08-29 19:21:51.020 [info] > git config --get commit.template [566ms]
+2023-08-29 19:21:52.026 [info] > git check-ignore -v -z --stdin [191ms]
+2023-08-29 19:21:52.102 [info] > git rev-parse --show-toplevel [243ms]
+2023-08-29 19:21:52.104 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [260ms]
+2023-08-29 19:21:52.377 [info] > git rev-parse --show-toplevel [19ms]
+2023-08-29 19:21:52.540 [info] > git rev-parse --show-toplevel [61ms]
+2023-08-29 19:21:52.657 [info] > git show --textconv :web.html [75ms]
+2023-08-29 19:21:52.670 [info] > git ls-files --stage -- /home/hec19gar/web.html [60ms]
+2023-08-29 19:21:52.745 [info] > git status -z -uall [627ms] (cancelled)
+2023-08-29 19:21:52.745 [info] > git cat-file -s a466567af1a1b887f50cea4cea03c6b38a9aefb8 [67ms]
